@@ -1,0 +1,66 @@
+# ── LaTeX ────────────────────────────────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+_minted-*/
+auto/
+
+# PDFs gerados por compilação (manter só os que forem entregáveis explícitos)
+# Se quiser versionar o PDF final, remova a linha abaixo e faça git add -f main.pdf
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+*.egg
+
+
+# ── Arquivos de backup e temporários ─────────────────────────────────────────
+*.bak
+*.pre_rename.bak
+*.tmp
+*.swp
+*~
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Editores ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Zotero / RIS (opcional — remova se quiser versionar a biblioteca) ─────────
+# artigos_materiais/04_Zotero/
+
+# ── Arquivos grandes que não devem ir para o repo ────────────────────────────
+*.zip
+*.doc
+*.docx
