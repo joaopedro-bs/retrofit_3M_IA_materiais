@@ -61,6 +61,6 @@ env/
 # artigos_materiais/04_Zotero/
 
 # ── Arquivos grandes que não devem ir para o repo ────────────────────────────
-*.zip
-*.doc
-*.docx
+#*.zip
+#*.doc
+#*.docx
